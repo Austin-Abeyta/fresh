@@ -3,7 +3,7 @@ layout: post
 title:  "What is RythmGAN?"
 date:   2018-09-05 00:00:00
 img: RYTHMGAN_RESULTS.jpg
-feature-image: "/assets/img/screenshot.jpg"
+feature-image: "fresh/assets/img/screenshot.jpg"
 description: RythmGAN is a program that uses state of the art machine learning algorithms to interpret and recreate music.
 ---
 # RythmGAN
@@ -12,7 +12,7 @@ RythmGAN is a program that uses state of the art machine learning algorithms to 
 RythmGAN uses a machine learning arcitecture called a deep neural network. Artificial neural networks are inspired by the workings of the human brain, and have proven to be very successful in solving very complex problems previously proven difficult to other techniques. Things like speech recognition, and self driving cars are examples of the amazing applications of deep neural networks. RythmGAN uses a Generative Adversarial Network(GAN) to generate it’s samples. These networks were developed by Ian Goodfellow in 2014 and have generated very realistic images. 
 
 
-<img src = "/fresh/assets/img/imaginary_celebritiespng.png">
+<img src = "assets/img/imaginary_celebritiespng.png">
 
 Two imaginary celebrites genrated by Nvidia GAN
 # Model
@@ -20,7 +20,7 @@ A GAN consists of two separate networks, the discriminator, and the generator. B
 
 The generator starts from a collection of random numbers and uses the decisions of the discriminator to improve itself to become more "real". Meanwhile the discriminator is improving by using it’s own error on the correct classification of generated samples. As the discriminator gets better so does the generator and vice versa until the generated data is as close to real as possible. 
 
-<img src = "/fresh/assets/img/GAN.jpg">
+<img src = "{{site.baseurl}}/assets/img/GAN.jpg">
 # Training Data
 RythmGAN learns from 7 million data points in 17,715 midi files to extract meaningful patterns present in the drums track of songs. The midi files used to train RythmGAN were taken from the Lakhn Pianoroll Dataset. These files were then encoded into a binary array, then passed into a decoder I created that reduced the dimensionality of the samples by 98.6%. Each sample had three elements:
 * Number of bars

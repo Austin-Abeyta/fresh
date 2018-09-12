@@ -15,7 +15,7 @@ google-plus: #Add your Google+
 github: #Add your Github
 
 # Contact form
-email: austin.abeyta@gmail.com
+email: "austin.abeyta@gmail.com"
 
 # Comments
 discus-identifier: # Add your Disqus identifier

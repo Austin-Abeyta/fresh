@@ -20,7 +20,7 @@ A GAN consists of two separate networks, the discriminator, and the generator. B
 
 The generator starts from a collection of random numbers and uses the decisions of the discriminator to improve itself to become more "real". Meanwhile the discriminator is improving by using it’s own error on the correct classification of generated samples. As the discriminator gets better so does the generator and vice versa until the generated data is as close to real as possible. 
 
-<img src = "{{site.baseurl}}/assets/img/GAN.jpg">
+<img src = "{{site.url}}{{site.baseurl}}/assets/img/GAN.jpg">
 # Training Data
 RythmGAN learns from 7 million data points in 17,715 midi files to extract meaningful patterns present in the drums track of songs. The midi files used to train RythmGAN were taken from the Lakhn Pianoroll Dataset. These files were then encoded into a binary array, then passed into a decoder I created that reduced the dimensionality of the samples by 98.6%. Each sample had three elements:
 * Number of bars

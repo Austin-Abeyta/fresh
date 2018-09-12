@@ -12,7 +12,8 @@ RythmGAN is a program that uses state of the art machine learning algorithms to 
 RythmGAN uses a machine learning arcitecture called a deep neural network. Artificial neural networks are inspired by the workings of the human brain, and have proven to be very successful in solving very complex problems previously proven difficult to other techniques. Things like speech recognition, and self driving cars are examples of the amazing applications of deep neural networks. RythmGAN uses a Generative Adversarial Network(GAN) to generate it’s samples. These networks were developed by Ian Goodfellow in 2014 and have generated very realistic images. 
 
 ![Fake Celebrities]({{site.url}}{{site.baseurl}}/assets/img/imaginary_celebritiespng.png)
-<img src = "assets/img/imaginary_celebritiespng.png">
+![Fake Celebrities]({{site.url}}{{site.baseurl}}assets/img/imaginary_celebritiespng.png)
+<img src = "{{site.baseurl}}assets/img/imaginary_celebritiespng.png">
 
 Two imaginary celebrites genrated by Nvidia GAN
 # Model

@@ -1,10 +1,9 @@
 # Profile information
-name: Fresh
-title: Fresh - Free Jekyll Theme
+name: RhythmGAN
+title: RhythmGAN - AI Drum Generator
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  RhythmGAN is an AI program that generates midi drum loops for musicians. It uses a Generative Advasarial Network 
+  to interpret and recreate patterns in drum tracks and output novel drum loops. This program was created by Austin Abeyta
 permalink: ':title/'
 baseurl: "/fresh" # the subpath of your site, e.g. /blog
 url: "https://austin-abeyta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -16,7 +15,7 @@ google-plus: #Add your Google+
 github: #Add your Github
 
 # Contact form
-email: #your-email@domain.com
+email: austin.abeyta@gmail.com
 
 # Comments
 discus-identifier: # Add your Disqus identifier

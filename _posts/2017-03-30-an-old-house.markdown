@@ -2,7 +2,7 @@
 layout: post
 title:  "What is RythmGAN?"
 date:   2018-09-05 00:00:00
-img: RYTHMGAN_RESULTS.jpg
+img: RYTHMGAN_RESULTS2.jpg
 description: RythmGAN is a program that uses state of the art machine learning algorithms to interpret and recreate music.
 ---
 # RythmGAN
